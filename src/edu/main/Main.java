@@ -1,4 +1,4 @@
-package edu;
+package edu.main;
 import javax.swing.*;
 
 public class Main {
