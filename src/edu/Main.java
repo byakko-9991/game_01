@@ -8,7 +8,7 @@ public class Main {
 		JFrame window = new JFrame();
 		
 		window.setSize(600, 800);
-		window.setVisible(false);
+		window.setVisible(true);
 	}
 
 }
