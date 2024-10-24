@@ -18,9 +18,11 @@ public class Main {
 		
 		String isMale = (male) ? "Male" : "Female";
 		
+	  //window.setName("Best Game Ever!!! ");
 		window.setSize(600, 800);
 	    window.setIconImage(appIcon);
 		window.setVisible(true);
+		window.setTitle("Best Game Ever!!!");
 		
 		JOptionPane.showMessageDialog(window, String.format("Your name is %s! \nAge: %d \nGender: %s" , name, age, isMale), name + "\'s Data", JOptionPane.WARNING_MESSAGE);
 	}
