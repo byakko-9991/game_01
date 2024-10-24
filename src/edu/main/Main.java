@@ -9,7 +9,7 @@ public class Main {
 		
 		String currentPath = System.getProperty("user.dir"); // Get absolute direction of the project
 		Image appIcon = Toolkit.getDefaultToolkit().getImage(currentPath + "/assets/icon.jpg"); 
-        ImageIcon imageIcon = new ImageIcon(currentPath + "/assets/image.jpg");
+        	ImageIcon imageIcon = new ImageIcon(currentPath + "/assets/image.jpg");
 
 		String name = JOptionPane.showInputDialog("Enter your name!", "Mark Zuckenberg");		
 		int age = Integer.parseInt(JOptionPane.showInputDialog("Enter your age!"));
@@ -17,12 +17,12 @@ public class Main {
 		String isMale = (male) ? "Male" : "Female";
 		
 		window.setSize(600, 800);
-	    window.setIconImage(appIcon);
+	    	window.setIconImage(appIcon);
 		window.setVisible(true);
 		window.setTitle("Best Game Ever!!!");
 		
 		JLabel imageLabel = new JLabel(imageIcon);
-        window.add(imageLabel);
+        	window.add(imageLabel);
 		
 		JOptionPane.showMessageDialog(window, String.format("Your name is %s! \nAge: %d \nGender: %s" , name, age, isMale), name + "\'s Data", JOptionPane.WARNING_MESSAGE);
 	}
